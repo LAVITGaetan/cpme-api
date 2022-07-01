@@ -2,6 +2,6 @@ module.exports = {
     HOST: 'localhost',
     USER: 'root',
     PASSWORD: '',
-    DB: 'sequelize_database',
+    DB: 'api_cpme',
     DIALECT: 'mysql'
 }

@@ -1,0 +1,14 @@
+<%- include('includes/_header.ejs')%>
+
+    Hello
+
+    <% users.forEach(user=> { %>
+        <h6>
+            <%= user.last_name %>
+        </h6>
+        <%}); %>
+
+
+
+
+<%- include('includes/_footer.ejs')%>
